@@ -17,7 +17,7 @@ python `main_train_lau_best_models.py --experiment_name=idcyclegan_128alignhq_mo
 
 3. Training IdCycleGAN-model3
 
-python `main_train_lau_best_models.py --experiment_name=idcyclegan_128alignhq_model3 --mode=idcyclegan_model3 --batch_size=16 --crop_size_img=128 --learning_rate=0.00028 --recover_model=False --sample_every=25 --save_model_every=10 --num_epochs=50python main_train_lau_best_models.py --experiment_name=idcyclegan_128alignhq_model3_stride4 --mode=idcyclegan_model3 --batch_size=16 --crop_size_img=128 --learning_rate=0.00028 --recover_model=False --sample_every=25 --save_model_every=1000 --num_epochs=50000`
+python `main_train_lau_best_models.py --experiment_name=idcyclegan_128alignhq_model3 --mode=idcyclegan_model3 --batch_size=16 --crop_size_img=128 --learning_rate=0.00028 --recover_model=False --sample_every=25 --save_model_every=10 --num_epochs=50000`
 
 Packages needed:
 - tensorflow
