@@ -5,7 +5,7 @@ The image dataset CelebA can be downloaded from http://mmlab.ie.cuhk.edu.hk/proj
 Small image datatset(sample) is given in the folder: IDCycleGAN\test_image_128 as well as the index file is in the same folder: index_file_img_test_128
 Video dataset(sample) given in the folder: IDCycleGAN\videos with index file: train_data.txt
 
-Information about the models and losses is given in https://drive.google.com/file/d/1MfqAskq8_zWkk0pgq7BZ5gMfPyZJwmRR/view?usp=sharing
+Information about the models and losses is given in https://drive.google.com/file/d/1MfqAskq8_zWkk0pgq7BZ5gMfPyZJwmRR/view?usp=sharing  
 Sample dataset and facenet pretrained model : https://drive.google.com/drive/folders/1J0DivJ4EgjEbgmDTnbVqfZXa_o8SJS6l?usp=sharing
 
 1. Training IdCycleGAN-model1
