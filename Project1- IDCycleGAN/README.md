@@ -37,5 +37,5 @@ Packages needed:
 Real Image to fake videos generated(32 frames: shown here Frame 0, 8, 16, 32) to images generated from fake videos
 
 ## Results with different losses
-![Result](https://github.com/laurenf3395/Semester_Projects/blob/master/Project1-%20IDCycleGAN/Results_different-losses.PNG)
+![Result](https://github.com/laurenf3395/Research_Projects/blob/master/Project1-%20IDCycleGAN/Results_different_losses.PNG)
 
