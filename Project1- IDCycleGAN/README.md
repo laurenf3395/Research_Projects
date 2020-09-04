@@ -1,4 +1,4 @@
-## Project1 :Improving Unsupervised Face Translationbetween Images and Videos
+## Project 1 : Improving Unsupervised Face Translation between Images and Videos
 
 The image dataset CelebA can be downloaded from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html. For the corresponding video dataset, Trailor faces from YouTube
 
@@ -6,8 +6,9 @@ Small image datatset(sample) is given in the folder: IDCycleGAN\test_image_128 a
 Video dataset(sample) given in the folder: IDCycleGAN\videos with index file: train_data.txt
 
 Information about the models and losses is given in https://drive.google.com/file/d/1MfqAskq8_zWkk0pgq7BZ5gMfPyZJwmRR/view?usp=sharing
+Sample dataset and facenet pretrained model : https://drive.google.com/drive/folders/1J0DivJ4EgjEbgmDTnbVqfZXa_o8SJS6l?usp=sharing
 
-1. Traning IdCycleGAN-model1
+1. Training IdCycleGAN-model1
 
 python `main_train_lau_best_models.py --experiment_name=idcyclegan_128alignhq_model1 --mode=idcyclegan_model1 --batch_size=16 --crop_size_img=128 --learning_rate=0.00028 --recover_model=False --sample_every=25 --save_model_every=1000 --num_epochs=50000`
 
@@ -34,4 +35,7 @@ Packages needed:
 ![Result](https://github.com/laurenf3395/Semester_Projects/blob/master/Project1-%20IDCycleGAN/Img_to_Video_to_Img.PNG/)
 
 Real Image to fake videos generated(32 frames: shown here Frame 0, 8, 16, 32) to images generated from fake videos
+
+## Results with different losses
+![Result](https://github.com/laurenf3395/Semester_Projects/blob/master/Project1-%20IDCycleGAN/Results_different-losses.PNG)
 
